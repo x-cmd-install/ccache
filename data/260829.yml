@@ -1,0 +1,61 @@
+about:
+  description: ccache – a fast compiler cache
+  license: NOASSERTION
+  homepage: https://ccache.dev
+  head: e256302
+  archived: false
+  latestVersion: v4.14
+  collectedAt: 2026-08-29T06:57:07Z
+timeline:
+  created: 2010-01-06
+  lastCommit: 2026-08-23
+  lastRelease: 2026-08-23
+popularity:
+  star: 2942
+  watcher: 59
+  fork: 592
+  release: 104
+  contributor: 201
+  pullRequest: 310
+  issue: 679
+language:
+  C++: 1353628
+  Shell: 436299
+  CMake: 60643
+  Python: 33493
+  Dockerfile: 7100
+  C: 6092
+totalLine: 1897255
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 5
+    openPR: 6
+    closedIssue: 5
+    openIssue: 6
+    commit: 46
+  last90d:
+    since: 2026-05-31
+    release: 1
+    mergedPR: 12
+    openPR: 8
+    closedIssue: 14
+    openIssue: 8
+    commit: 78
+  last180d:
+    since: 2026-03-02
+    release: 8
+    mergedPR: 27
+    openPR: 10
+    closedIssue: 34
+    openIssue: 9
+    commit: 176
+  last360d:
+    since: 2025-09-03
+    release: 12
+    mergedPR: 43
+    openPR: 12
+    closedIssue: 50
+    openIssue: 14
+    commit: 357
