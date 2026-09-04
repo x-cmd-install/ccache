@@ -7,7 +7,7 @@ about:
   head: e256302
   archived: false
   latestVersion: v4.14
-  collectedAt: 2026-09-04T19:24:12Z
+  collectedAt: 2026-09-04T21:11:08Z
 timeline:
   created: 2010-01-06
   lastCommit: 2026-08-23
@@ -85,6 +85,109 @@ total:
   openIssue: 54
   commit: 5333
 ---
+path: /home/runner/.x-repo/github.com/ccache/ccache
+collectedAt: 2026-09-04T21:11:10Z
+loc:
+  Cpp:
+    code: 28579
+    comments: 3559
+    blanks: 4792
+    files: 116
+  AssemblyGAS:
+    code: 19742
+    comments: 0
+    blanks: 49
+    files: 8
+  CHeader:
+    code: 17218
+    comments: 1391
+    blanks: 2819
+    files: 12
+  Bash:
+    code: 9781
+    comments: 963
+    blanks: 2423
+    files: 63
+  Assembly:
+    code: 8836
+    comments: 6
+    blanks: 59
+    files: 4
+  CppHeader:
+    code: 6964
+    comments: 2495
+    blanks: 1886
+    files: 95
+  AsciiDoc:
+    code: 5528
+    comments: 0
+    blanks: 2577
+    files: 4
+  C:
+    code: 4797
+    comments: 414
+    blanks: 371
+    files: 10
+  CMake:
+    code: 1789
+    comments: 182
+    blanks: 281
+    files: 52
+  Python:
+    code: 636
+    comments: 23
+    blanks: 137
+    files: 10
+  Sh:
+    code: 405
+    comments: 38
+    blanks: 91
+    files: 14
+  Dockerfile:
+    code: 270
+    comments: 10
+    blanks: 19
+    files: 11
+  Autoconf:
+    code: 101
+    comments: 96
+    blanks: 63
+    files: 4
+  Json:
+    code: 86
+    comments: 0
+    blanks: 0
+    files: 1
+  Css:
+    code: 38
+    comments: 3
+    blanks: 9
+    files: 1
+  Toml:
+    code: 21
+    comments: 0
+    blanks: 2
+    files: 1
+  Bitbake:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 368
+    blanks: 123
+    files: 5
+  Text:
+    code: 0
+    comments: 705
+    blanks: 159
+    files: 5
+total:
+  code: 104805
+  comments: 10253
+  blanks: 15860
+  files: 417
 ---
 date: "2026-08-24"
 repo:
