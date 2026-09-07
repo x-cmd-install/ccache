@@ -2,30 +2,30 @@ about:
   description: "ccache – a fast compiler cache"
   license: NOASSERTION
   homepage: https://ccache.dev
-  head: 4d63a81
+  head: 4b11ae8
   archived: false
   latestVersion: "v4.14"
-  collectedAt: 2026-09-07T06:10:02Z
+  collectedAt: 2026-09-07T18:21:01Z
 timeline:
   created: 2010-01-06
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-08-23
 popularity:
   star: 2953
   watcher: 59
-  fork: 596
+  fork: 597
   release: 104
   contributor: 201
   pullRequest: 813
   issue: 682
 language:
-  C++: 1353628
+  C++: 1353621
   Shell: 436433
   CMake: 60971
-  Python: 33493
+  Python: 33033
   Dockerfile: 7100
   C: 6092
-totalBytes: 1897717
+totalBytes: 1897250
 recent:
   last30d:
     since: 2026-08-08
@@ -34,7 +34,7 @@ recent:
     openPR: 9
     closedIssue: 4
     openIssue: 7
-    commit: 17
+    commit: 23
   last60d:
     since: 2026-07-09
     release: 1
@@ -42,7 +42,7 @@ recent:
     openPR: 10
     closedIssue: 10
     openIssue: 10
-    commit: 72
+    commit: 78
   last90d:
     since: 2026-06-09
     release: 1
@@ -50,7 +50,7 @@ recent:
     openPR: 11
     closedIssue: 13
     openIssue: 11
-    commit: 76
+    commit: 82
   last180d:
     since: 2026-03-11
     release: 6
@@ -58,7 +58,7 @@ recent:
     openPR: 13
     closedIssue: 28
     openIssue: 12
-    commit: 140
+    commit: 146
   last360d:
     since: 2025-09-12
     release: 12
@@ -66,7 +66,7 @@ recent:
     openPR: 15
     closedIssue: 50
     openIssue: 17
-    commit: 336
+    commit: 342
   last720d:
     since: 2024-09-17
     release: 16
@@ -74,22 +74,22 @@ recent:
     openPR: 16
     closedIssue: 95
     openIssue: 22
-    commit: 556
+    commit: 562
 total:
   release: 104
   mergedPR: 499
   openPR: 16
   closedIssue: 626
   openIssue: 56
-  commit: 5334
+  commit: 5340
 ---
 path: /home/runner/.x-repo/github.com/ccache/ccache
-collectedAt: 2026-09-07T06:10:05Z
+collectedAt: 2026-09-07T18:21:04Z
 loc:
   Cpp:
-    code: 28579
-    comments: 3559
-    blanks: 4792
+    code: 28587
+    comments: 3555
+    blanks: 4796
     files: 116
   AssemblyGAS:
     code: 19742
@@ -117,7 +117,7 @@ loc:
     blanks: 1886
     files: 95
   AsciiDoc:
-    code: 5528
+    code: 5554
     comments: 0
     blanks: 2577
     files: 4
@@ -132,9 +132,9 @@ loc:
     blanks: 281
     files: 53
   Python:
-    code: 636
+    code: 607
     comments: 23
-    blanks: 137
+    blanks: 136
     files: 10
   Sh:
     code: 405
@@ -182,9 +182,9 @@ loc:
     blanks: 159
     files: 5
 total:
-  code: 104815
-  comments: 10253
-  blanks: 15860
+  code: 104820
+  comments: 10249
+  blanks: 15863
   files: 418
 ---
 date: "2026-09-07"
@@ -334,7 +334,7 @@ checks:
       - 'Info:   0 out of  11 containerImage dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T06:10:06+00:00
+  collectedAt: 2026-09-07T18:21:04+00:00
   platform:
     darwin/arm64:
       name:  ccache-4.14-darwin.tar.gz
