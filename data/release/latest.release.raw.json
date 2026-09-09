@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2203957,
       "digest": "sha256:353a81ea8680d93387102cfde288ebed381a54272cfdc18224f241add6332b39",
-      "download_count": 967,
+      "download_count": 1046,
       "created_at": "2026-08-23T09:16:01Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 320,
       "digest": "sha256:fc5deb48cdf2f47b356dc86aaa2a0974552772afcb38616e032a98c3718c6a28",
-      "download_count": 29,
+      "download_count": 41,
       "created_at": "2026-08-23T09:16:01Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-darwin.tar.gz.minisig"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1748853,
       "digest": "sha256:3ef39d153ffc3ad83b31d6c6b3122d437fcf874c110e5cfee8e8fe196140f230",
-      "download_count": 43,
+      "download_count": 45,
       "created_at": "2026-08-23T09:16:01Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-glibc.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 333,
       "digest": "sha256:212af5853ee13e84e96600b8d28ad52a702d7110c1b92fc5f604843039349f7c",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-23T09:16:01Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-glibc.tar.gz.minisig"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1207364,
       "digest": "sha256:8182a7e909a4a453e2b3011de9dafef11fd1bd35364947816e0126e467137dc2",
-      "download_count": 132,
+      "download_count": 142,
       "created_at": "2026-08-23T09:16:01Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-glibc.tar.xz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 333,
       "digest": "sha256:3cb45e259abe0b1c2cddfb1da0ba7f5449a6da3760fb71b43d7db5fb0224bc44",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-glibc.tar.xz.minisig"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2029471,
       "digest": "sha256:2218884d62433c416d5bc33cabba3d8bf7a410bd94dc4950e2625ddbd1eafd1d",
-      "download_count": 29,
+      "download_count": 33,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-musl-static.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 339,
       "digest": "sha256:e0c052886d2f904242dad973a831ccc93467255a802c042b4bcc70c330426c22",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-musl-static.tar.gz.minisig"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1426556,
       "digest": "sha256:40623f11012a97d60c7d90058d7e3c8c70a3802af53a34067b89e6345c89db69",
-      "download_count": 4758,
+      "download_count": 4761,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-musl-static.tar.xz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 339,
       "digest": "sha256:24e1e8c6fcf8d63eb2a0ca15592717aace1759f340fcd4cdf52ba1c793869b10",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-aarch64-musl-static.tar.xz.minisig"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1943116,
       "digest": "sha256:29f199aa0197f641156c0c6507c64ab3ef930b1afed98f6cebb2211f138ade5e",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-glibc.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 333,
       "digest": "sha256:117af7f305182dc206c14d41046c05aa95fd920aacf91a2a423b1f840eef571e",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:02Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-glibc.tar.gz.minisig"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 1485696,
       "digest": "sha256:621cc5893602997a1b54c8b1b4da950cf6114c5875765f71d00d8c69d7d3330d",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-glibc.tar.xz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 333,
       "digest": "sha256:af4fdfbd83327dade7aed3476c185b63ffeab4e8a5a582943538e282e1993c3a",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-23T09:16:02Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-glibc.tar.xz.minisig"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2143417,
       "digest": "sha256:2606f40b542a58c9e32a2b3a753dd74c1b21282a990c60660594c7784ab55711",
-      "download_count": 13,
+      "download_count": 15,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-musl-static.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 339,
       "digest": "sha256:f9ed02a133a2dcb2281bedf8e6b0aa55d6b837020af0f4e57f37d6d90fa5c2e1",
-      "download_count": 13,
+      "download_count": 14,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-musl-static.tar.gz.minisig"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 1676176,
       "digest": "sha256:b21499fdae985ea5a646af5269e2ee69805ae5f663ac05cc6c11973a58e2e70a",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-musl-static.tar.xz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 339,
       "digest": "sha256:2d68261990e3543d0678d4b2c5d79935c5ed3843c2d5373f5ea252d0aa040a7d",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-riscv64-musl-static.tar.xz.minisig"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1800417,
       "digest": "sha256:c64760b0b85ba86068f4cd162dc42e2dc39c6f46b0cb8c1990dfccbec7a1fed0",
-      "download_count": 1787,
+      "download_count": 1884,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-glibc.tar.gz"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 332,
       "digest": "sha256:fc5f5706014b4a7d033ef376071422530425124e869d0706fc43b8ad296a5de0",
-      "download_count": 14,
+      "download_count": 15,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-glibc.tar.gz.minisig"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 1344580,
       "digest": "sha256:45a91165db7092e67c6208ada03f54700e684c4cd3735f9031de95669ed9272c",
-      "download_count": 2347,
+      "download_count": 2494,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-glibc.tar.xz"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 332,
       "digest": "sha256:228addc680b3f1d1a31b5b145870a5802f53881349bab704e935ba79f179f297",
-      "download_count": 25,
+      "download_count": 26,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-glibc.tar.xz.minisig"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 2107606,
       "digest": "sha256:985f575acf84cf6d70e0f4fe86903418df9e7bce11f35faaf8d415e5ff5a9478",
-      "download_count": 708,
+      "download_count": 734,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:03Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-musl-static.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 338,
       "digest": "sha256:cd7ce2f599d2675e91c50ee553d691d59ddca27c34cc6f0835a01c418b685332",
-      "download_count": 14,
+      "download_count": 15,
       "created_at": "2026-08-23T09:16:03Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-musl-static.tar.gz.minisig"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 1588980,
       "digest": "sha256:888eaf9697919d6eba77be797e9d9c9e40e734d11d67d25a79b075c3f79f6c77",
-      "download_count": 6991,
+      "download_count": 7056,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-musl-static.tar.xz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 338,
       "digest": "sha256:59dfddc796e309ce9b81ff4d876bdec437af5e94c97e3465861429ae8a3f565c",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-linux-x86_64-musl-static.tar.xz.minisig"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 1301749,
       "digest": "sha256:baa07085f68f75ea033d6f8d8fe6b53b7f353050bd191e299ff27e131cc3d787",
-      "download_count": 1869,
+      "download_count": 1908,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-windows-aarch64.zip"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 326,
       "digest": "sha256:2a5cf750c607931fe505a33d3430a2a651bb8efa33d74123460c3dd766d2573a",
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-windows-aarch64.zip.minisig"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 1838050,
       "digest": "sha256:2568347a697e103ca1b073981c704ad76fb2507d066c38dba038dd73399d968f",
-      "download_count": 44436,
+      "download_count": 47185,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-windows-x86_64.zip"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 325,
       "digest": "sha256:290b062232802b48da0612771c78bd2322d805dd79128b7cc42a97e54523e2e7",
-      "download_count": 1412,
+      "download_count": 1635,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14-windows-x86_64.zip.minisig"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 758532,
       "digest": "sha256:fca63f36a83fb2f4b3cc4c01b2c7a1cd6e3629e7f7bd1e01a2eb8810f947c5ab",
-      "download_count": 565,
+      "download_count": 579,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14.tar.gz"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 313,
       "digest": "sha256:401a7dfe31d8c83390f199ce8e6f32934b16396469848c7c7df80bda6e9b0b6d",
-      "download_count": 22,
+      "download_count": 24,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14.tar.gz.minisig"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 551012,
       "digest": "sha256:b093ac5d38204cb4d9f29b0bbd570675aa5a592a78e6675b2c506dbe045234e7",
-      "download_count": 2656,
+      "download_count": 2742,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14.tar.xz"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 313,
       "digest": "sha256:9f870c123b8f4a52b34b28b68f9dda333d3bcf096150554ca235763a566955f4",
-      "download_count": 91,
+      "download_count": 94,
       "created_at": "2026-08-23T09:16:04Z",
       "updated_at": "2026-08-23T09:16:04Z",
       "browser_download_url": "https://github.com/ccache/ccache/releases/download/v4.14/ccache-4.14.tar.xz.minisig"
