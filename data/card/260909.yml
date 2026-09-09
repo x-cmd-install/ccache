@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.14"
   latestRelease: "v4.14"
   latestPrerelease: "v3.0pre1"
-  collectedAt: 2026-09-09T06:16:55Z
+  collectedAt: 2026-09-09T20:48:54Z
 timeline:
   created: 2010-01-06
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-23
   lastPrerelease: 2019-04-17
 popularity:
-  star: 2953
+  star: 2954
   watcher: 59
   fork: 597
   release: 104
@@ -88,7 +88,7 @@ total:
   commit: 5343
 ---
 path: /home/runner/.x-repo/github.com/ccache/ccache
-collectedAt: 2026-09-09T06:16:58Z
+collectedAt: 2026-09-09T20:48:58Z
 loc:
   Cpp:
     code: 28587
