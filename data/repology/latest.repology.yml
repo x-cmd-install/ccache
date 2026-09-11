@@ -1,31 +1,24 @@
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: ccache
-  visiblename: ccache
-  version: 4.5.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: apertis_v2026
-  subrepo: v2026/development
+- repo: ubuntu_16_04
+  subrepo: xenial/main
   srcname: ccache
   binnames:
     - ccache
   visiblename: ccache
-  version: 4.11.2
-  origversion: 4.11.2-2+apertis0
+  version: 3.2.4
+  origversion: 3.2.4-1
   status: outdated
   maintainers:
     - joel@debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
+  categories:
+    - devel
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: ccache
   binnames:
     - ccache
   visiblename: ccache
-  version: 4.13.6
-  origversion: 4.13.6-1
+  version: 3.4.1
+  origversion: 3.4.1-1
   status: outdated
   maintainers:
     - joel@debian.org
@@ -222,17 +215,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: apertis_v2027
-  subrepo: v2027dev1/development
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.11.2
-  origversion: 4.11.2-2+apertis0
-  status: outdated
-  maintainers:
-    - joel@debian.org
 - repo: alpine_3_22
   subrepo: main
   srcname: ccache
@@ -246,6 +228,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.11.2
+  origversion: 4.11.2-2
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
 - repo: alpine_3_23
   subrepo: main
   srcname: ccache
@@ -340,19 +335,6 @@
     - GPLv3+
   categories:
     - Development/Tools
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: "4.2"
-  origversion: 4.2-1
-  status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
 - repo: altsisyphus
   srcname: ccache
   binnames:
@@ -411,6 +393,28 @@
   visiblename: ccache
   version: 4.8+really4.7.5
   origversion: 4.8+really4.7.5-1+apertis0
+  status: outdated
+  maintainers:
+    - joel@debian.org
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.11.2
+  origversion: 4.11.2-2+apertis0
+  status: outdated
+  maintainers:
+    - joel@debian.org
+- repo: apertis_v2027
+  subrepo: v2027dev1/development
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.11.2
+  origversion: 4.11.2-2+apertis0
   status: outdated
   maintainers:
     - joel@debian.org
@@ -595,16 +599,21 @@
     - joel@debian.org
   categories:
     - devel
-- repo: gnuguix
+- repo: parrot
+  subrepo: parrot/main
   srcname: ccache
-  binname: ccache
+  binnames:
+    - ccache
   visiblename: ccache
-  version: 4.8.3
-  origversion: null
+  version: 4.11.2
+  origversion: 4.11.2-2
   status: outdated
-  summary: Compiler cache
-- repo: debian_13
-  subrepo: trixie/main
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: ccache
   binnames:
     - ccache
@@ -674,6 +683,32 @@
   visiblename: ccache
   version: 4.10.2
   origversion: 4.10.2-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: "4.2"
+  origversion: 4.2-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.13.6
+  origversion: 4.13.6-1
   status: outdated
   maintainers:
     - joel@debian.org
@@ -934,6 +969,23 @@
     - GPL-3+ || ( CC0-1.0 Apache-2.0 ) elibc_mingw? ( LGPL-3 ISC PSF-2 )
   categories:
     - dev-util
+- repo: gnuguix
+  srcname: ccache
+  binname: ccache
+  visiblename: ccache
+  version: 4.8.3
+  origversion: null
+  status: outdated
+  summary: Compiler cache
+- repo: pclinuxos
+  srcname: ccache
+  visiblename: ccache
+  version: "4.14"
+  origversion: 4.14-1pclos2026
+  status: newest
+  summary: Compiler Cache
+  categories:
+    - Development/Other
 - repo: gobolinux
   srcname: CCache
   visiblename: CCache
@@ -1065,17 +1117,16 @@
     - GPL-3+ || ( CC0-1.0 Apache-2.0 ) Boost-1.0 CC0-1.0 elibc_mingw? ( LGPL-3 ISC PSF-2 )
   categories:
     - dev-util
-- repo: parrot
-  subrepo: parrot/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.11.2
-  origversion: 4.11.2-2
+- repo: pkgsrc_2026_2
+  srcname: devel/ccache
+  binname: ccache
+  visiblename: devel/ccache
+  version: 4.13.6
+  origversion: null
   status: outdated
+  summary: Cache for C/C++ compilers
   maintainers:
-    - joel@debian.org
+    - pkgsrc-users@netbsd.org
   categories:
     - devel
 - repo: liguros_develop
@@ -1236,19 +1287,6 @@
   summary: A compiler cache (mingw-w64)
   licenses:
     - spdx:GPL-3.0-or-later
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.11.2
-  origversion: 4.11.2-2
-  status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
 - repo: msys2_ucrt64
   srcname: mingw-w64-ccache
   binname: mingw-w64-ucrt-x86_64-ccache
@@ -1414,15 +1452,6 @@
     - GPLv3+
   categories:
     - Unspecified
-- repo: pclinuxos
-  srcname: ccache
-  visiblename: ccache
-  version: "4.14"
-  origversion: 4.14-1pclos2026
-  status: newest
-  summary: Compiler Cache
-  categories:
-    - Development/Other
 - repo: openeuler_24_03_lts_sp1
   srcname: ccache
   binnames:
@@ -1565,15 +1594,6 @@
     - GPL
   categories:
     - Development
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: ccache
-  visiblename: ccache
-  version: "4.14"
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: ccache
@@ -1695,18 +1715,6 @@
   version: 3.7.12
   origversion: 3.7.12nb2
   status: legacy
-  summary: Cache for C/C++ compilers
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: pkgsrc_2026_2
-  srcname: devel/ccache
-  binname: ccache
-  visiblename: devel/ccache
-  version: 4.13.6
-  origversion: null
-  status: outdated
   summary: Cache for C/C++ compilers
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1923,6 +1931,24 @@
   status: outdated
   maintainers:
     - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: ccache
+  visiblename: ccache
+  version: "4.14"
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: ccache
+  visiblename: ccache
+  version: 4.5.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: ccache
   binname: ccache
@@ -2045,32 +2071,6 @@
   status: outdated
   maintainers:
     - appaji@debian.org
-    - joel@debian.org
-  categories:
-    - devel
-- repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 3.2.4
-  origversion: 3.2.4-1
-  status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 3.4.1
-  origversion: 3.4.1-1
-  status: outdated
-  maintainers:
     - joel@debian.org
   categories:
     - devel
