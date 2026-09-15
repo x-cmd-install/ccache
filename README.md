@@ -14,11 +14,11 @@ x install ccache
 
 ## Code insight
 
-Total: **104,876** lines of code across **203** files in the top 5 languages.
+Total: **104,879** lines of code across **203** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 28,614 | 3,558 | 4,802 | 116 |
+| Cpp | 28,617 | 3,558 | 4,802 | 116 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
 | CHeader | 17,218 | 1,391 | 2,819 | 12 |
 | Bash | 9,816 | 968 | 2,439 | 63 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.14` (2026-08-23)
-- **Last commit**: 2026-09-13
+- **Last commit**: 2026-09-14
 - **Assets in release**: 34
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 104 · **Merged PRs**: 500 · **Open PRs**: 14 · **Closed issues**: 628 · **Open issues**: 56 · **Commits**: 5345
+- **Releases**: 104 · **Merged PRs**: 501 · **Open PRs**: 14 · **Closed issues**: 629 · **Open issues**: 55 · **Commits**: 5346
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 3 | 5 | 4 | 6 | 18 |
-| last60d | 2026-07-16 | 1 | 7 | 8 | 8 | 9 | 70 |
-| 90d | 2026-06-16 | 1 | 11 | 9 | 15 | 11 | 87 |
-| last180d | 2026-03-18 | 6 | 20 | 10 | 29 | 12 | 144 |
-| 360d | 2025-09-19 | 11 | 45 | 13 | 52 | 17 | 345 |
-| last720d | 2024-09-24 | 16 | 73 | 14 | 96 | 22 | 558 |
+| 30d | 2026-08-16 | 1 | 3 | 5 | 5 | 5 | 19 |
+| last60d | 2026-07-17 | 1 | 8 | 8 | 9 | 8 | 71 |
+| 90d | 2026-06-17 | 1 | 12 | 9 | 15 | 10 | 88 |
+| last180d | 2026-03-19 | 6 | 21 | 10 | 30 | 11 | 145 |
+| 360d | 2025-09-20 | 11 | 46 | 13 | 53 | 16 | 346 |
+| last720d | 2024-09-25 | 16 | 74 | 14 | 96 | 21 | 559 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:44:26Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T06:47:26Z._
