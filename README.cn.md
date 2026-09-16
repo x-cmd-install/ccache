@@ -30,9 +30,9 @@ x install ccache
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install ccache
 
 ## 流行度
 
-- **Star**: 2,954 · **Fork**: 598 · **开放 issue**: 684 · **贡献者**: 202
+- **Star**: 2,956 · **Fork**: 598 · **开放 issue**: 686 · **贡献者**: 202
 
 ## 累计统计
 
-- **发布数**: 104 · **已合并 PR**: 501 · **开放 PR**: 14 · **已关闭 issue**: 629 · **开放 issue**: 55 · **提交数**: 5346
+- **发布数**: 104 · **已合并 PR**: 501 · **开放 PR**: 14 · **已关闭 issue**: 629 · **开放 issue**: 57 · **提交数**: 5346
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 3 | 5 | 5 | 5 | 19 |
-| last60d | 2026-07-17 | 1 | 8 | 8 | 9 | 8 | 71 |
-| 90d | 2026-06-17 | 1 | 12 | 9 | 15 | 10 | 88 |
-| last180d | 2026-03-19 | 6 | 21 | 10 | 30 | 11 | 145 |
-| 360d | 2025-09-20 | 11 | 46 | 13 | 53 | 16 | 346 |
-| last720d | 2024-09-25 | 16 | 74 | 14 | 96 | 21 | 559 |
+| 30d | 2026-08-17 | 1 | 3 | 4 | 5 | 7 | 19 |
+| last60d | 2026-07-18 | 1 | 8 | 8 | 9 | 10 | 71 |
+| 90d | 2026-06-18 | 1 | 12 | 9 | 15 | 12 | 88 |
+| last180d | 2026-03-20 | 6 | 21 | 10 | 30 | 13 | 145 |
+| 360d | 2025-09-21 | 11 | 46 | 13 | 53 | 18 | 346 |
+| last720d | 2024-09-26 | 16 | 74 | 14 | 96 | 23 | 559 |
 
 ## Release 资产
 
@@ -113,4 +113,4 @@ ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T06:47:27Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T06:42:30Z._
