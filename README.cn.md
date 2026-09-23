@@ -4,7 +4,7 @@
 
 ccache – a fast compiler cache
 
-[![x-cmd/install — ccache Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ccache.svg?lang=zh)](https://x-cmd.com/install/ccache)
+[![x-cmd/install — ccache Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ccache.svg?lang=zh)](https://x-cmd.com/install/ccache)
 
 ## 安装
 
@@ -30,7 +30,7 @@ x install ccache
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -58,12 +58,12 @@ x install ccache
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 4 | 3 | 5 | 5 | 17 |
-| last60d | 2026-07-24 | 1 | 9 | 7 | 11 | 8 | 72 |
-| 90d | 2026-06-24 | 1 | 12 | 8 | 16 | 10 | 95 |
-| last180d | 2026-03-26 | 5 | 22 | 9 | 29 | 11 | 142 |
-| 360d | 2025-09-27 | 11 | 46 | 12 | 54 | 16 | 342 |
-| last720d | 2024-10-02 | 16 | 75 | 13 | 97 | 21 | 567 |
+| 30d | 2026-08-24 | 0 | 2 | 3 | 4 | 4 | 17 |
+| last60d | 2026-07-25 | 1 | 9 | 7 | 11 | 8 | 72 |
+| 90d | 2026-06-25 | 1 | 12 | 8 | 16 | 10 | 95 |
+| last180d | 2026-03-27 | 5 | 22 | 9 | 29 | 11 | 142 |
+| 360d | 2025-09-28 | 11 | 46 | 12 | 54 | 16 | 342 |
+| last720d | 2024-10-03 | 16 | 75 | 13 | 97 | 21 | 567 |
 
 ## Release 资产
 
@@ -113,4 +113,4 @@ ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:36:36Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:50:16Z._

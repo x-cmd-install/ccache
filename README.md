@@ -4,7 +4,7 @@
 
 ccache – a fast compiler cache
 
-[![x-cmd/install — ccache Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ccache.svg)](https://x-cmd.com/install/ccache)
+[![x-cmd/install — ccache Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ccache.svg)](https://x-cmd.com/install/ccache)
 
 ## Install
 
@@ -30,7 +30,7 @@ Overall score: **6.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 4 | 3 | 5 | 5 | 17 |
-| last60d | 2026-07-24 | 1 | 9 | 7 | 11 | 8 | 72 |
-| 90d | 2026-06-24 | 1 | 12 | 8 | 16 | 10 | 95 |
-| last180d | 2026-03-26 | 5 | 22 | 9 | 29 | 11 | 142 |
-| 360d | 2025-09-27 | 11 | 46 | 12 | 54 | 16 | 342 |
-| last720d | 2024-10-02 | 16 | 75 | 13 | 97 | 21 | 567 |
+| 30d | 2026-08-24 | 0 | 2 | 3 | 4 | 4 | 17 |
+| last60d | 2026-07-25 | 1 | 9 | 7 | 11 | 8 | 72 |
+| 90d | 2026-06-25 | 1 | 12 | 8 | 16 | 10 | 95 |
+| last180d | 2026-03-27 | 5 | 22 | 9 | 29 | 11 | 142 |
+| 360d | 2025-09-28 | 11 | 46 | 12 | 54 | 16 | 342 |
+| last720d | 2024-10-03 | 16 | 75 | 13 | 97 | 21 | 567 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:36:35Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:50:15Z._
