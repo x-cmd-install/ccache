@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,967 · **Forks**: 604 · **Open issues**: 689 · **Contributors**: 203
+- **Stars**: 2,970 · **Forks**: 604 · **Open issues**: 689 · **Contributors**: 203
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 1 | 3 | 8 | 4 | 3 | 17 |
-| last60d | 2026-08-08 | 2 | 9 | 14 | 11 | 7 | 43 |
-| 90d | 2026-07-09 | 2 | 13 | 15 | 17 | 10 | 98 |
-| last180d | 2026-04-10 | 6 | 21 | 15 | 26 | 10 | 135 |
-| 360d | 2025-10-12 | 11 | 43 | 18 | 56 | 14 | 334 |
-| last720d | 2024-10-17 | 17 | 75 | 18 | 98 | 21 | 574 |
+| 30d | 2026-09-08 | 1 | 3 | 8 | 4 | 3 | 17 |
+| last60d | 2026-08-09 | 2 | 9 | 14 | 11 | 7 | 43 |
+| 90d | 2026-07-10 | 2 | 13 | 15 | 15 | 9 | 98 |
+| last180d | 2026-04-11 | 6 | 21 | 15 | 26 | 10 | 135 |
+| 360d | 2025-10-13 | 11 | 43 | 18 | 56 | 14 | 334 |
+| last720d | 2024-10-18 | 17 | 75 | 18 | 98 | 21 | 571 |
 
 ## Release assets
 
@@ -121,4 +121,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T07:14:38Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T07:23:58Z._
