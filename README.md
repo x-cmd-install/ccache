@@ -30,7 +30,7 @@ Overall score: **6.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 2 | 7 | 4 | 5 | 1 | 28 |
-| last60d | 2026-08-21 | 3 | 11 | 7 | 11 | 5 | 47 |
-| 90d | 2026-07-22 | 3 | 16 | 11 | 17 | 8 | 103 |
-| last180d | 2026-04-23 | 5 | 24 | 11 | 27 | 9 | 141 |
-| 360d | 2025-10-25 | 12 | 45 | 13 | 60 | 13 | 308 |
-| last720d | 2024-10-30 | 18 | 80 | 14 | 100 | 20 | 579 |
+| 30d | 2026-09-21 | 2 | 7 | 4 | 5 | 1 | 28 |
+| last60d | 2026-08-22 | 3 | 11 | 7 | 11 | 5 | 47 |
+| 90d | 2026-07-23 | 3 | 16 | 11 | 17 | 8 | 103 |
+| last180d | 2026-04-24 | 5 | 24 | 11 | 27 | 9 | 141 |
+| 360d | 2025-10-26 | 12 | 45 | 13 | 59 | 13 | 308 |
+| last720d | 2024-10-31 | 18 | 80 | 14 | 100 | 20 | 579 |
 
 ## Release assets
 
@@ -121,4 +121,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T06:07:19Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T06:08:09Z._

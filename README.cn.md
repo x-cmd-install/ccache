@@ -30,7 +30,7 @@ x install ccache
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 7/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -58,12 +58,12 @@ x install ccache
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 2 | 7 | 4 | 5 | 1 | 28 |
-| last60d | 2026-08-21 | 3 | 11 | 7 | 11 | 5 | 47 |
-| 90d | 2026-07-22 | 3 | 16 | 11 | 17 | 8 | 103 |
-| last180d | 2026-04-23 | 5 | 24 | 11 | 27 | 9 | 141 |
-| 360d | 2025-10-25 | 12 | 45 | 13 | 60 | 13 | 308 |
-| last720d | 2024-10-30 | 18 | 80 | 14 | 100 | 20 | 579 |
+| 30d | 2026-09-21 | 2 | 7 | 4 | 5 | 1 | 28 |
+| last60d | 2026-08-22 | 3 | 11 | 7 | 11 | 5 | 47 |
+| 90d | 2026-07-23 | 3 | 16 | 11 | 17 | 8 | 103 |
+| last180d | 2026-04-24 | 5 | 24 | 11 | 27 | 9 | 141 |
+| 360d | 2025-10-26 | 12 | 45 | 13 | 59 | 13 | 308 |
+| last720d | 2024-10-31 | 18 | 80 | 14 | 100 | 20 | 579 |
 
 ## Release 资产
 
@@ -121,4 +121,4 @@ ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T06:07:20Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T06:08:10Z._
