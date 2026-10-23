@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 509 · **Open PRs**: 16 · **Closed issues**: 638 · **Open issues**: 54 · **Commits**: 5382
+- **Releases**: 106 · **Merged PRs**: 509 · **Open PRs**: 18 · **Closed issues**: 638 · **Open issues**: 54 · **Commits**: 5382
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 2 | 7 | 5 | 5 | 1 | 28 |
-| last60d | 2026-08-23 | 3 | 11 | 8 | 11 | 5 | 47 |
-| 90d | 2026-07-24 | 3 | 16 | 12 | 17 | 8 | 103 |
-| last180d | 2026-04-25 | 5 | 24 | 12 | 27 | 9 | 141 |
-| 360d | 2025-10-27 | 12 | 44 | 14 | 59 | 13 | 308 |
-| last720d | 2024-11-01 | 18 | 80 | 15 | 100 | 20 | 579 |
+| 30d | 2026-09-23 | 2 | 7 | 7 | 5 | 1 | 28 |
+| last60d | 2026-08-24 | 2 | 9 | 10 | 9 | 5 | 47 |
+| 90d | 2026-07-25 | 3 | 16 | 14 | 17 | 8 | 103 |
+| last180d | 2026-04-26 | 5 | 24 | 14 | 27 | 9 | 141 |
+| 360d | 2025-10-28 | 12 | 44 | 16 | 59 | 13 | 308 |
+| last720d | 2024-11-02 | 18 | 80 | 17 | 100 | 20 | 579 |
 
 ## Release assets
 
@@ -112,6 +112,25 @@ Lowest-scoring checks:
 | [ccache-4.14.2.tar.xz](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz) | 544.3 KiB | `other` |
 | [ccache-4.14.2.tar.xz.minisig](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz.minisig) | 315 B | `other` |
 
+## Distribution status
+
+Reported by **179** distros on [repology.org](https://repology.org/project/ccache). **21** are ✅ on the latest upstream release, **141** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.14.2` | ✅ latest |
+| Debian 14 | `4.14.2` | ✅ latest |
+| Debian 13 | `4.11.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
+| Arch | `4.14.1` | ⚠️ outdated |
+| Homebrew | `4.14.2` | ✅ latest |
+| Fedora rawhide | `4.14.2` | ✅ latest |
+| Nix unstable | `4.14.1` | ⚠️ outdated |
+| Void | `4.14.1` | ⚠️ outdated |
+| Alpine edge | `4.13.6` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.14.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ccache` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -121,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T06:06:35Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:02:41Z._
