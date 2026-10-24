@@ -1,3 +1,42 @@
+- repo: deepin_23
+  subrepo: main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.10.2
+  origversion: 4.10.2-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
+- repo: deepin_25
+  subrepo: main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.10.2
+  origversion: 4.10.2-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: "4.2"
+  origversion: 4.2-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: ccache
@@ -11,18 +50,17 @@
     - joel@debian.org
   categories:
     - devel
-- repo: cygwin
+- repo: deepin_unstable
+  subrepo: main
   srcname: ccache
-  binname: ccache-debuginfo
-  visiblename: ccache-debuginfo
-  version: 3.1.9
-  origversion: 3.1.9-2
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: "3.6"
+  origversion: 3.6-1
   status: outdated
-  summary: A C compiler cache for improving recompilation
   maintainers:
-    - orphaned@cygwin
-  categories:
-    - Debug
+    - joel@debian.org
 - repo: slackware64_current
   subrepo: slackware64
   binname: ccache
@@ -32,12 +70,6 @@
   status: newest
   maintainers:
     - volkerdi@slackware.com
-- repo: conancenter
-  srcname: ccache
-  visiblename: ccache
-  version: 4.12.3
-  origversion: null
-  status: legacy
 - repo: slackwarearm_15_0
   subrepo: slackware
   binname: ccache
@@ -47,113 +79,28 @@
   status: outdated
   maintainers:
     - volkerdi@slackware.com
-- repo: haikuports_master
-  srcname: dev-util/ccache
-  visiblename: dev-util/ccache
-  version: 4.11.3
+- repo: kiss_main
+  subrepo: extra
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.2
   origversion: null
-  status: outdated
+  status: newest
+  maintainers:
+    - owen@owenrafferty.com
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: 4.14.2-1
+  status: newest
+  maintainers:
+    - joel@debian.org
   categories:
-    - dev-util
-- repo: homebrew
-  srcname: ccache
-  visiblename: ccache
-  version: 4.14.2
-  origversion: null
-  status: newest
-  summary: Object-file caching compiler wrapper
-- repo: homebrew
-  srcname: ccache
-  visiblename: ccache
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Object-file caching compiler wrapper
-- repo: slackware_current
-  subrepo: slackware
-  binname: ccache
-  visiblename: ccache
-  version: 4.14.2
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: crux_37
-  subrepo: opt
-  srcname: ccache
-  visiblename: ccache
-  version: 4.11.3
-  origversion: null
-  status: outdated
-  summary: A fast compiler cache
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: opt
-  srcname: ccache
-  visiblename: ccache
-  version: 4.14.2
-  origversion: null
-  status: newest
-  summary: A fast compiler cache
-  maintainers:
-    - tbier@posteo.de
-- repo: chocolatey
-  binname: ccache
-  visiblename: ccache – a fast compiler cache
-  version: 4.14.2
-  origversion: null
-  status: newest
-  summary: a fast compiler cache.
-- repo: chromebrew
-  srcname: ccache
-  visiblename: ccache
-  version: 4.14.1
-  origversion: null
-  status: outdated
-  summary: Compiler cache that speeds up recompilation by caching previous compilations
-  licenses:
-    - GPL-3 and LGPL-3
-- repo: conancenter
-  srcname: ccache
-  visiblename: ccache
-  version: 4.14.1
-  origversion: null
-  status: outdated
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: ccache
-  visiblename: ccache
-  version: 4.5.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: alpine_3_19
-  subrepo: main
-  srcname: ccache
-  binname: ccache
-  visiblename: ccache
-  version: 4.8.3
-  origversion: 4.8.3-r0
-  status: outdated
-  summary: fast C/C++ compiler cache
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: conancenter
-  srcname: ccache
-  visiblename: ccache
-  version: "4.14"
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: ccache
-  visiblename: ccache
-  version: 4.13.6
-  origversion: null
-  status: legacy
+    - devel
 - repo: adelie_current
   subrepo: system
   srcname: ccache
@@ -250,6 +197,19 @@
   origversion: 4.8.2-r0
   status: outdated
   summary: fast C/C++ compiler cache (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: main
+  srcname: ccache
+  binname: ccache
+  visiblename: ccache
+  version: 4.8.3
+  origversion: 4.8.3-r0
+  status: outdated
+  summary: fast C/C++ compiler cache
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -579,6 +539,66 @@
   summary: Fast C/C++ compiler cache
   licenses:
     - GPL-3.0-or-later
+- repo: chocolatey
+  binname: ccache
+  visiblename: ccache – a fast compiler cache
+  version: 4.14.2
+  origversion: null
+  status: newest
+  summary: a fast compiler cache.
+- repo: chromebrew
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.1
+  origversion: null
+  status: outdated
+  summary: Compiler cache that speeds up recompilation by caching previous compilations
+  licenses:
+    - GPL-3 and LGPL-3
+- repo: conancenter
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: null
+  status: newest
+- repo: conancenter
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: ccache
+  visiblename: ccache
+  version: 4.13.6
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: ccache
+  visiblename: ccache
+  version: 4.12.3
+  origversion: null
+  status: legacy
+- repo: crux_37
+  subrepo: opt
+  srcname: ccache
+  visiblename: ccache
+  version: 4.11.3
+  origversion: null
+  status: outdated
+  summary: A fast compiler cache
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: opt
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: null
+  status: newest
+  summary: A fast compiler cache
+  maintainers:
+    - tbier@posteo.de
 - repo: cygwin
   srcname: ccache
   binname: ccache
@@ -591,6 +611,18 @@
     - orphaned@cygwin
   categories:
     - Devel
+- repo: cygwin
+  srcname: ccache
+  binname: ccache-debuginfo
+  visiblename: ccache-debuginfo
+  version: 3.1.9
+  origversion: 3.1.9-2
+  status: outdated
+  summary: A C compiler cache for improving recompilation
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Debug
 - repo: debian_11
   subrepo: bullseye/main
   srcname: ccache
@@ -639,69 +671,6 @@
   version: 4.14.2
   origversion: 4.14.2-1
   status: newest
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.14.2
-  origversion: 4.14.2-1
-  status: newest
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
-- repo: deepin_unstable
-  subrepo: main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: "3.6"
-  origversion: 3.6-1
-  status: outdated
-  maintainers:
-    - joel@debian.org
-- repo: deepin_23
-  subrepo: main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.10.2
-  origversion: 4.10.2-1
-  status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
-- repo: deepin_25
-  subrepo: main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.10.2
-  origversion: 4.10.2-1
-  status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: "4.2"
-  origversion: 4.2-1
-  status: outdated
   maintainers:
     - joel@debian.org
   categories:
@@ -935,17 +904,6 @@
     - osidorkin@gmail.com
   categories:
     - devel
-- repo: msys2_mingw
-  subrepo: x86_64
-  srcname: mingw-w64-ccache
-  binname: mingw-w64-x86_64-ccache
-  visiblename: mingw-w64-x86_64-ccache
-  version: 4.14.1
-  origversion: 4.14.1-1
-  status: outdated
-  summary: Compiler cache that speeds up recompilation by caching previous compilations (mingw-w64)
-  licenses:
-    - spdx:GPL-3.0-or-later
 - repo: gentoo
   srcname: dev-util/ccache
   visiblename: dev-util/ccache
@@ -989,6 +947,28 @@
   summary: A fast compiler cache.
   licenses:
     - GNU General Public License (GPL)
+- repo: haikuports_master
+  srcname: dev-util/ccache
+  visiblename: dev-util/ccache
+  version: 4.11.3
+  origversion: null
+  status: outdated
+  categories:
+    - dev-util
+- repo: homebrew
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: null
+  status: newest
+  summary: Object-file caching compiler wrapper
+- repo: homebrew
+  srcname: ccache
+  visiblename: ccache
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Object-file caching compiler wrapper
 - repo: ibmi
   srcname: ccache
   binnames:
@@ -1015,15 +995,6 @@
     - joel@debian.org
   categories:
     - devel
-- repo: kiss_main
-  subrepo: extra
-  srcname: ccache
-  visiblename: ccache
-  version: 4.14.2
-  origversion: null
-  status: newest
-  maintainers:
-    - owen@owenrafferty.com
 - repo: liguros_stable
   srcname: dev-util/ccache
   visiblename: dev-util/ccache
@@ -1050,17 +1021,6 @@
     - GPL-3+ || ( CC0-1.0 Apache-2.0 ) Boost-1.0 CC0-1.0 elibc_mingw? ( LGPL-3 ISC PSF-2 )
   categories:
     - dev-util
-- repo: msys2_mingw
-  subrepo: i686
-  srcname: mingw-w64-ccache
-  binname: mingw-w64-i686-ccache
-  visiblename: mingw-w64-i686-ccache
-  version: 4.14.1
-  origversion: 4.14.1-1
-  status: outdated
-  summary: Compiler cache that speeds up recompilation by caching previous compilations (mingw-w64)
-  licenses:
-    - spdx:GPL-3.0-or-later
 - repo: liguros_stable
   srcname: dev-util/ccache
   visiblename: dev-util/ccache
@@ -1212,19 +1172,28 @@
   summary: Compiler cache that speeds up recompilation by caching previous compilations (mingw-w64)
   licenses:
     - spdx:GPL-3.0-or-later
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ccache
-  binnames:
-    - ccache
-  visiblename: ccache
-  version: 4.13.6
-  origversion: 4.13.6-1
+- repo: msys2_mingw
+  subrepo: x86_64
+  srcname: mingw-w64-ccache
+  binname: mingw-w64-x86_64-ccache
+  visiblename: mingw-w64-x86_64-ccache
+  version: 4.14.1
+  origversion: 4.14.1-1
   status: outdated
-  maintainers:
-    - joel@debian.org
-  categories:
-    - devel
+  summary: Compiler cache that speeds up recompilation by caching previous compilations (mingw-w64)
+  licenses:
+    - spdx:GPL-3.0-or-later
+- repo: msys2_mingw
+  subrepo: i686
+  srcname: mingw-w64-ccache
+  binname: mingw-w64-i686-ccache
+  visiblename: mingw-w64-i686-ccache
+  version: 4.14.1
+  origversion: 4.14.1-1
+  status: outdated
+  summary: Compiler cache that speeds up recompilation by caching previous compilations (mingw-w64)
+  licenses:
+    - spdx:GPL-3.0-or-later
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: ccache
@@ -1642,7 +1611,7 @@
   categories:
     - devel
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: ccache
   binnames:
     - ccache
@@ -1655,7 +1624,7 @@
   categories:
     - devel
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: ccache
   binnames:
     - ccache
@@ -1833,6 +1802,19 @@
     - joel@debian.org
   categories:
     - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ccache
+  binnames:
+    - ccache
+  visiblename: ccache
+  version: 4.13.6
+  origversion: 4.13.6-1
+  status: outdated
+  maintainers:
+    - joel@debian.org
+  categories:
+    - devel
 - repo: ravenports
   srcname: ccache
   binname: ccache
@@ -1918,6 +1900,24 @@
   status: outdated
   maintainers:
     - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: ccache
+  visiblename: ccache
+  version: 4.5.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: ccache
   binname: ccache
@@ -1980,6 +1980,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: main
+  srcname: ccache
+  visiblename: ccache
+  version: 4.14.2
+  origversion: 4.14.2-1
+  status: newest
+  summary: A fast compiler cache
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: ccache
   visiblename: ccache
