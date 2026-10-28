@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,982 · **Forks**: 604 · **Open issues**: 692 · **Contributors**: 205
+- **Stars**: 2,984 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 509 · **Open PRs**: 19 · **Closed issues**: 638 · **Open issues**: 54 · **Commits**: 5382
+- **Releases**: 106 · **Merged PRs**: 509 · **Open PRs**: 20 · **Closed issues**: 638 · **Open issues**: 55 · **Commits**: 5382
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 2 | 7 | 7 | 4 | 1 | 20 |
-| last60d | 2026-08-28 | 2 | 9 | 11 | 8 | 5 | 45 |
-| 90d | 2026-07-29 | 3 | 16 | 14 | 16 | 8 | 90 |
-| last180d | 2026-04-30 | 4 | 24 | 15 | 27 | 9 | 138 |
-| 360d | 2025-11-01 | 12 | 44 | 17 | 59 | 12 | 298 |
-| last720d | 2024-11-06 | 18 | 80 | 18 | 100 | 20 | 577 |
+| 30d | 2026-09-28 | 1 | 4 | 8 | 4 | 2 | 20 |
+| last60d | 2026-08-29 | 2 | 9 | 12 | 8 | 6 | 45 |
+| 90d | 2026-07-30 | 3 | 16 | 15 | 16 | 9 | 90 |
+| last180d | 2026-05-01 | 4 | 24 | 16 | 27 | 10 | 138 |
+| 360d | 2025-11-02 | 12 | 44 | 18 | 58 | 13 | 298 |
+| last720d | 2024-11-07 | 18 | 80 | 19 | 100 | 21 | 577 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **34** are ✅ on the latest upstream release, **129** are ⚠️ on an older version.
+Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **35** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -126,7 +126,7 @@ Reported by **180** distros on [repology.org](https://repology.org/project/ccach
 | Arch | `4.14.1` | ⚠️ outdated |
 | Homebrew | `4.14.2` | ✅ latest |
 | Fedora rawhide | `4.14.2` | ✅ latest |
-| Nix unstable | `4.14.1` | ⚠️ outdated |
+| Nix unstable | `4.14.2` | ✅ latest |
 | Void | `4.14.1` | ⚠️ outdated |
 | Alpine edge | `4.13.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.14.2` | ✅ latest |
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:31:27Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:59:13Z._
