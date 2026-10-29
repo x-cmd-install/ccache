@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,984 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 205
+- **Stars**: 2,986 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 205
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 1 | 4 | 8 | 4 | 2 | 20 |
-| last60d | 2026-08-29 | 2 | 9 | 12 | 8 | 6 | 45 |
-| 90d | 2026-07-30 | 3 | 16 | 15 | 16 | 9 | 90 |
-| last180d | 2026-05-01 | 4 | 24 | 16 | 27 | 10 | 138 |
-| 360d | 2025-11-02 | 12 | 44 | 18 | 58 | 13 | 298 |
-| last720d | 2024-11-07 | 18 | 80 | 19 | 100 | 21 | 577 |
+| 30d | 2026-09-29 | 1 | 4 | 8 | 4 | 2 | 20 |
+| last60d | 2026-08-30 | 2 | 9 | 12 | 8 | 6 | 45 |
+| 90d | 2026-07-31 | 3 | 16 | 15 | 16 | 8 | 90 |
+| last180d | 2026-05-02 | 4 | 24 | 16 | 27 | 10 | 138 |
+| 360d | 2025-11-03 | 12 | 44 | 18 | 58 | 13 | 298 |
+| last720d | 2024-11-08 | 18 | 80 | 19 | 100 | 21 | 574 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **35** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
+Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **36** are ✅ on the latest upstream release, **127** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:59:13Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T07:10:39Z._
