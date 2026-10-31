@@ -14,13 +14,13 @@ x install ccache
 
 ## Code insight
 
-Total: **95,961** lines of code across **199** files in the top 5 languages.
+Total: **95,989** lines of code across **199** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 28,688 | 3,581 | 4,825 | 115 |
+| Cpp | 28,692 | 3,582 | 4,825 | 115 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
-| Bash | 9,570 | 984 | 2,396 | 61 |
+| Bash | 9,594 | 986 | 2,400 | 61 |
 | Assembly | 8,836 | 6 | 59 | 4 |
 | CHeader | 8,738 | 1,025 | 1,168 | 11 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.14.2` (2026-10-18)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-30
 - **Assets in release**: 42
 
 ## Popularity
 
-- **Stars**: 2,988 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 205
+- **Stars**: 2,991 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 206
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 509 · **Open PRs**: 20 · **Closed issues**: 638 · **Open issues**: 55 · **Commits**: 5382
+- **Releases**: 106 · **Merged PRs**: 510 · **Open PRs**: 19 · **Closed issues**: 639 · **Open issues**: 54 · **Commits**: 5383
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 3 | 8 | 4 | 2 | 20 |
-| last60d | 2026-08-31 | 2 | 8 | 12 | 8 | 6 | 45 |
-| 90d | 2026-08-01 | 3 | 16 | 15 | 16 | 8 | 90 |
-| last180d | 2026-05-03 | 4 | 24 | 16 | 27 | 10 | 138 |
-| 360d | 2025-11-04 | 12 | 44 | 18 | 58 | 13 | 298 |
-| last720d | 2024-11-09 | 18 | 80 | 19 | 100 | 21 | 573 |
+| 30d | 2026-10-01 | 1 | 4 | 6 | 5 | 1 | 21 |
+| last60d | 2026-09-01 | 2 | 9 | 11 | 9 | 5 | 46 |
+| 90d | 2026-08-02 | 3 | 17 | 14 | 17 | 7 | 91 |
+| last180d | 2026-05-04 | 4 | 24 | 15 | 28 | 9 | 139 |
+| 360d | 2025-11-05 | 12 | 45 | 17 | 59 | 12 | 299 |
+| last720d | 2024-11-10 | 18 | 81 | 18 | 101 | 20 | 569 |
 
 ## Release assets
 
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T07:12:47Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:59:48Z._
