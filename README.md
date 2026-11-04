@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,992 · **Forks**: 606 · **Open issues**: 694 · **Contributors**: 207
+- **Stars**: 2,991 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 207
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 513 · **Open PRs**: 15 · **Closed issues**: 642 · **Open issues**: 52 · **Commits**: 5412
+- **Releases**: 106 · **Merged PRs**: 513 · **Open PRs**: 16 · **Closed issues**: 642 · **Open issues**: 51 · **Commits**: 5412
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 5 | 2 | 3 | 2 | 46 |
-| last60d | 2026-09-04 | 2 | 12 | 6 | 11 | 3 | 66 |
-| 90d | 2026-08-05 | 3 | 19 | 11 | 19 | 6 | 97 |
-| last180d | 2026-05-07 | 3 | 27 | 12 | 30 | 8 | 162 |
-| 360d | 2025-11-08 | 12 | 48 | 14 | 61 | 11 | 322 |
-| last720d | 2024-11-13 | 18 | 84 | 14 | 103 | 19 | 597 |
+| 30d | 2026-10-05 | 1 | 5 | 3 | 3 | 2 | 46 |
+| last60d | 2026-09-05 | 2 | 12 | 7 | 10 | 3 | 66 |
+| 90d | 2026-08-06 | 3 | 19 | 12 | 19 | 6 | 97 |
+| last180d | 2026-05-08 | 3 | 27 | 13 | 30 | 8 | 162 |
+| 360d | 2025-11-09 | 12 | 48 | 15 | 61 | 11 | 322 |
+| last720d | 2024-11-14 | 18 | 83 | 15 | 103 | 19 | 597 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **40** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
+Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **41** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:23:51Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:56:12Z._
