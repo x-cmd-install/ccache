@@ -14,13 +14,13 @@ x install ccache
 
 ## Code insight
 
-Total: **96,343** lines of code across **200** files in the top 5 languages.
+Total: **96,668** lines of code across **200** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 28,979 | 3,607 | 4,858 | 116 |
+| Cpp | 29,292 | 3,615 | 4,882 | 116 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
-| Bash | 9,624 | 997 | 2,407 | 61 |
+| Bash | 9,635 | 998 | 2,413 | 61 |
 | Assembly | 8,836 | 6 | 59 | 4 |
 | CHeader | 8,738 | 1,025 | 1,168 | 11 |
 
@@ -30,9 +30,9 @@ Overall score: **6.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Security-Policy** (0/10) — security policy file not detected
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.14.2` (2026-10-18)
-- **Last commit**: 2026-11-01
+- **Last commit**: 2026-11-04
 - **Assets in release**: 42
 
 ## Popularity
 
-- **Stars**: 2,991 · **Forks**: 606 · **Open issues**: 693 · **Contributors**: 207
+- **Stars**: 2,990 · **Forks**: 607 · **Open issues**: 693 · **Contributors**: 208
 
 ## Totals (cumulative)
 
-- **Releases**: 106 · **Merged PRs**: 513 · **Open PRs**: 16 · **Closed issues**: 642 · **Open issues**: 51 · **Commits**: 5412
+- **Releases**: 106 · **Merged PRs**: 515 · **Open PRs**: 17 · **Closed issues**: 643 · **Open issues**: 50 · **Commits**: 5416
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 5 | 3 | 3 | 2 | 46 |
-| last60d | 2026-09-05 | 2 | 12 | 7 | 10 | 3 | 66 |
-| 90d | 2026-08-06 | 3 | 19 | 12 | 19 | 6 | 97 |
-| last180d | 2026-05-08 | 3 | 27 | 13 | 30 | 8 | 162 |
-| 360d | 2025-11-09 | 12 | 48 | 15 | 61 | 11 | 322 |
-| last720d | 2024-11-14 | 18 | 83 | 15 | 103 | 19 | 597 |
+| 30d | 2026-10-06 | 1 | 6 | 5 | 4 | 1 | 47 |
+| last60d | 2026-09-06 | 2 | 13 | 8 | 11 | 2 | 67 |
+| 90d | 2026-08-07 | 3 | 21 | 13 | 19 | 4 | 100 |
+| last180d | 2026-05-09 | 3 | 29 | 14 | 31 | 7 | 165 |
+| 360d | 2025-11-10 | 12 | 50 | 16 | 62 | 10 | 325 |
+| last720d | 2024-11-15 | 18 | 85 | 16 | 104 | 18 | 601 |
 
 ## Release assets
 
@@ -112,25 +112,6 @@ Lowest-scoring checks:
 | [ccache-4.14.2.tar.xz](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz) | 544.3 KiB | `other` |
 | [ccache-4.14.2.tar.xz.minisig](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz.minisig) | 315 B | `other` |
 
-## Distribution status
-
-Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **41** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.14.2` | ✅ latest |
-| Debian 14 | `4.14.2` | ✅ latest |
-| Debian 13 | `4.11.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
-| Arch | `4.14.1` | ⚠️ outdated |
-| Homebrew | `4.14.2` | ✅ latest |
-| Fedora rawhide | `4.14.2` | ✅ latest |
-| Nix unstable | `4.14.2` | ✅ latest |
-| Void | `4.14.1` | ⚠️ outdated |
-| Alpine edge | `4.13.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.14.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `ccache` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -140,4 +121,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:56:12Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T08:15:32Z._

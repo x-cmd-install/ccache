@@ -14,13 +14,13 @@ x install ccache
 
 ## 代码洞察
 
-合计: **96,343** 行代码（覆盖前 5 种语言、共 **200** 个文件）。
+合计: **96,668** 行代码（覆盖前 5 种语言、共 **200** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 28,979 | 3,607 | 4,858 | 116 |
+| Cpp | 29,292 | 3,615 | 4,882 | 116 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
-| Bash | 9,624 | 997 | 2,407 | 61 |
+| Bash | 9,635 | 998 | 2,413 | 61 |
 | Assembly | 8,836 | 6 | 59 | 4 |
 | CHeader | 8,738 | 1,025 | 1,168 | 11 |
 
@@ -30,9 +30,9 @@ x install ccache
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Security-Policy** (0/10) — security policy file not detected
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install ccache
 ## 发布
 
 - **最新版本**: `v4.14.2` (2026-10-18)
-- **最近提交**: 2026-11-01
+- **最近提交**: 2026-11-04
 - **Release 含资产**: 42 个
 
 ## 流行度
 
-- **Star**: 2,991 · **Fork**: 606 · **开放 issue**: 693 · **贡献者**: 207
+- **Star**: 2,990 · **Fork**: 607 · **开放 issue**: 693 · **贡献者**: 208
 
 ## 累计统计
 
-- **发布数**: 106 · **已合并 PR**: 513 · **开放 PR**: 16 · **已关闭 issue**: 642 · **开放 issue**: 51 · **提交数**: 5412
+- **发布数**: 106 · **已合并 PR**: 515 · **开放 PR**: 17 · **已关闭 issue**: 643 · **开放 issue**: 50 · **提交数**: 5416
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 5 | 3 | 3 | 2 | 46 |
-| last60d | 2026-09-05 | 2 | 12 | 7 | 10 | 3 | 66 |
-| 90d | 2026-08-06 | 3 | 19 | 12 | 19 | 6 | 97 |
-| last180d | 2026-05-08 | 3 | 27 | 13 | 30 | 8 | 162 |
-| 360d | 2025-11-09 | 12 | 48 | 15 | 61 | 11 | 322 |
-| last720d | 2024-11-14 | 18 | 83 | 15 | 103 | 19 | 597 |
+| 30d | 2026-10-06 | 1 | 6 | 5 | 4 | 1 | 47 |
+| last60d | 2026-09-06 | 2 | 13 | 8 | 11 | 2 | 67 |
+| 90d | 2026-08-07 | 3 | 21 | 13 | 19 | 4 | 100 |
+| last180d | 2026-05-09 | 3 | 29 | 14 | 31 | 7 | 165 |
+| 360d | 2025-11-10 | 12 | 50 | 16 | 62 | 10 | 325 |
+| last720d | 2024-11-15 | 18 | 85 | 16 | 104 | 18 | 601 |
 
 ## Release 资产
 
@@ -112,25 +112,6 @@ x install ccache
 | [ccache-4.14.2.tar.xz](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz) | 544.3 KiB | `other` |
 | [ccache-4.14.2.tar.xz.minisig](https://github.com/ccache/ccache/releases/download/v4.14.2/ccache-4.14.2.tar.xz.minisig) | 315 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/ccache) 上共有 **180** 个发行版报告此项目。**41** 个 ✅ 已是最新上游版本，**122** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `4.14.2` | ✅ latest |
-| Debian 14 | `4.14.2` | ✅ latest |
-| Debian 13 | `4.11.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
-| Arch | `4.14.1` | ⚠️ outdated |
-| Homebrew | `4.14.2` | ✅ latest |
-| Fedora rawhide | `4.14.2` | ✅ latest |
-| Nix unstable | `4.14.2` | ✅ latest |
-| Void | `4.14.1` | ⚠️ outdated |
-| Alpine edge | `4.13.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.14.2` | ✅ latest |
-
 ## 改进这些数据
 
 ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `ccache` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -140,4 +121,4 @@ ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:56:13Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T08:15:34Z._
