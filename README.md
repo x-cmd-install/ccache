@@ -14,13 +14,13 @@ x install ccache
 
 ## Code insight
 
-Total: **96,762** lines of code across **200** files in the top 5 languages.
+Total: **96,863** lines of code across **200** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 29,339 | 3,615 | 4,886 | 116 |
+| Cpp | 29,408 | 3,617 | 4,892 | 116 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
-| Bash | 9,635 | 998 | 2,413 | 61 |
+| Bash | 9,661 | 1,000 | 2,420 | 61 |
 | Assembly | 8,836 | 6 | 59 | 4 |
 | CHeader | 8,738 | 1,025 | 1,168 | 11 |
 
@@ -30,9 +30,9 @@ Overall score: **6.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 5/22 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.14.3` (2026-11-08)
-- **Last commit**: 2026-11-08
+- **Last commit**: 2026-11-10
 - **Assets in release**: 42
 
 ## Popularity
 
-- **Stars**: 2,997 · **Forks**: 606 · **Open issues**: 695 · **Contributors**: 209
+- **Stars**: 2,999 · **Forks**: 606 · **Open issues**: 695 · **Contributors**: 209
 
 ## Totals (cumulative)
 
-- **Releases**: 107 · **Merged PRs**: 516 · **Open PRs**: 19 · **Closed issues**: 643 · **Open issues**: 52 · **Commits**: 5419
+- **Releases**: 107 · **Merged PRs**: 516 · **Open PRs**: 19 · **Closed issues**: 644 · **Open issues**: 51 · **Commits**: 5421
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 2 | 7 | 7 | 4 | 3 | 40 |
-| last60d | 2026-09-11 | 3 | 14 | 10 | 10 | 3 | 64 |
-| 90d | 2026-08-12 | 4 | 20 | 14 | 19 | 6 | 87 |
-| last180d | 2026-05-14 | 4 | 30 | 16 | 31 | 9 | 160 |
-| 360d | 2025-11-15 | 13 | 51 | 18 | 62 | 12 | 325 |
-| last720d | 2024-11-20 | 19 | 86 | 18 | 104 | 20 | 598 |
+| 30d | 2026-10-12 | 2 | 6 | 7 | 4 | 2 | 42 |
+| last60d | 2026-09-12 | 3 | 14 | 10 | 11 | 2 | 66 |
+| 90d | 2026-08-13 | 4 | 20 | 14 | 19 | 5 | 89 |
+| last180d | 2026-05-15 | 4 | 30 | 16 | 32 | 8 | 162 |
+| 360d | 2025-11-16 | 13 | 51 | 18 | 63 | 11 | 327 |
+| last720d | 2024-11-21 | 19 | 86 | 18 | 105 | 19 | 600 |
 
 ## Release assets
 
@@ -114,12 +114,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **181** distros on [repology.org](https://repology.org/project/ccache). **19** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
+Reported by **181** distros on [repology.org](https://repology.org/project/ccache). **27** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `4.14.3` | ✅ latest |
-| Debian 14 | `4.14.2` | ⚠️ outdated |
+| Debian 14 | `4.14.3` | ✅ latest |
 | Debian 13 | `4.11.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T09:02:32Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:40:13Z._
