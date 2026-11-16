@@ -14,13 +14,13 @@ x install ccache
 
 ## Code insight
 
-Total: **96,863** lines of code across **200** files in the top 5 languages.
+Total: **97,023** lines of code across **200** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 29,408 | 3,617 | 4,892 | 116 |
+| Cpp | 29,509 | 3,635 | 4,901 | 116 |
 | AssemblyGAS | 19,742 | 0 | 49 | 8 |
-| Bash | 9,661 | 1,000 | 2,420 | 61 |
+| Bash | 9,669 | 1,002 | 2,423 | 61 |
 | Assembly | 8,836 | 6 | 59 | 4 |
 | CHeader | 8,738 | 1,025 | 1,168 | 11 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v4.14.3` (2026-11-08)
-- **Last commit**: 2026-11-10
+- **Last commit**: 2026-11-15
 - **Assets in release**: 42
 
 ## Popularity
 
-- **Stars**: 3,000 · **Forks**: 607 · **Open issues**: 697 · **Contributors**: 209
+- **Stars**: 3,002 · **Forks**: 607 · **Open issues**: 697 · **Contributors**: 210
 
 ## Totals (cumulative)
 
-- **Releases**: 107 · **Merged PRs**: 516 · **Open PRs**: 20 · **Closed issues**: 644 · **Open issues**: 53 · **Commits**: 5421
+- **Releases**: 107 · **Merged PRs**: 519 · **Open PRs**: 17 · **Closed issues**: 644 · **Open issues**: 53 · **Commits**: 5424
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 2 | 6 | 8 | 4 | 4 | 27 |
-| last60d | 2026-09-16 | 3 | 13 | 11 | 8 | 4 | 62 |
-| 90d | 2026-08-17 | 4 | 17 | 14 | 18 | 6 | 81 |
-| last180d | 2026-05-19 | 4 | 30 | 17 | 32 | 10 | 162 |
-| 360d | 2025-11-20 | 13 | 51 | 19 | 63 | 13 | 318 |
-| last720d | 2024-11-25 | 19 | 86 | 19 | 105 | 21 | 600 |
+| 30d | 2026-10-17 | 2 | 8 | 4 | 4 | 4 | 30 |
+| last60d | 2026-09-17 | 3 | 15 | 8 | 8 | 4 | 65 |
+| 90d | 2026-08-18 | 4 | 19 | 11 | 17 | 6 | 84 |
+| last180d | 2026-05-20 | 4 | 32 | 14 | 32 | 10 | 165 |
+| 360d | 2025-11-21 | 13 | 53 | 16 | 63 | 13 | 321 |
+| last720d | 2024-11-26 | 19 | 88 | 16 | 105 | 21 | 603 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **180** distros on [repology.org](https://repology.org/project/ccache). **30** are ✅ on the latest upstream release, **132** are ⚠️ on an older version.
+Reported by **182** distros on [repology.org](https://repology.org/project/ccache). **34** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -124,7 +124,7 @@ Reported by **180** distros on [repology.org](https://repology.org/project/ccach
 | Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
 | Arch | `4.14.1` | ⚠️ outdated |
-| Homebrew | `4.14.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `4.14.3` | ✅ latest |
 | Nix unstable | `4.14.3` | ✅ latest |
 | Void | `4.14.1` | ⚠️ outdated |
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T08:21:02Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:58:43Z._
