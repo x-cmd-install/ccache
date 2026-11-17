@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,002 · **Forks**: 607 · **Open issues**: 697 · **Contributors**: 210
+- **Stars**: 3,002 · **Forks**: 608 · **Open issues**: 697 · **Contributors**: 210
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 2 | 8 | 4 | 4 | 4 | 30 |
-| last60d | 2026-09-17 | 3 | 15 | 8 | 8 | 4 | 65 |
-| 90d | 2026-08-18 | 4 | 19 | 11 | 17 | 6 | 84 |
-| last180d | 2026-05-20 | 4 | 32 | 14 | 32 | 10 | 165 |
-| 360d | 2025-11-21 | 13 | 53 | 16 | 63 | 13 | 321 |
-| last720d | 2024-11-26 | 19 | 88 | 16 | 105 | 21 | 603 |
+| 30d | 2026-10-18 | 2 | 8 | 4 | 4 | 3 | 30 |
+| last60d | 2026-09-18 | 3 | 15 | 8 | 8 | 4 | 65 |
+| 90d | 2026-08-19 | 4 | 19 | 11 | 17 | 6 | 84 |
+| last180d | 2026-05-21 | 4 | 32 | 14 | 32 | 10 | 165 |
+| 360d | 2025-11-22 | 13 | 53 | 16 | 63 | 13 | 321 |
+| last720d | 2024-11-27 | 19 | 88 | 16 | 104 | 21 | 603 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **182** distros on [repology.org](https://repology.org/project/ccache). **34** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
+Reported by **183** distros on [repology.org](https://repology.org/project/ccache). **40** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -129,7 +129,7 @@ Reported by **182** distros on [repology.org](https://repology.org/project/ccach
 | Nix unstable | `4.14.3` | ✅ latest |
 | Void | `4.14.1` | ⚠️ outdated |
 | Alpine edge | `4.13.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `4.14.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.14.3` | ✅ latest |
 
 ## Improve this data
 
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:58:43Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:43:42Z._
