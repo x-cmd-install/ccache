@@ -26,11 +26,11 @@ x install ccache
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.6 / 10**
+总评分: **6.7 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 8/22 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -48,22 +48,22 @@ x install ccache
 
 ## 流行度
 
-- **Star**: 3,002 · **Fork**: 608 · **开放 issue**: 697 · **贡献者**: 210
+- **Star**: 3,004 · **Fork**: 610 · **开放 issue**: 700 · **贡献者**: 210
 
 ## 累计统计
 
-- **发布数**: 107 · **已合并 PR**: 519 · **开放 PR**: 17 · **已关闭 issue**: 644 · **开放 issue**: 53 · **提交数**: 5424
+- **发布数**: 107 · **已合并 PR**: 519 · **开放 PR**: 20 · **已关闭 issue**: 644 · **开放 issue**: 56 · **提交数**: 5424
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 8 | 4 | 4 | 3 | 30 |
-| last60d | 2026-09-18 | 3 | 15 | 8 | 8 | 4 | 65 |
-| 90d | 2026-08-19 | 4 | 19 | 11 | 17 | 6 | 84 |
-| last180d | 2026-05-21 | 4 | 32 | 14 | 32 | 10 | 165 |
-| 360d | 2025-11-22 | 13 | 53 | 16 | 63 | 13 | 321 |
-| last720d | 2024-11-27 | 19 | 88 | 16 | 104 | 21 | 603 |
+| 30d | 2026-10-20 | 1 | 8 | 8 | 3 | 6 | 30 |
+| last60d | 2026-09-20 | 3 | 15 | 12 | 8 | 7 | 65 |
+| 90d | 2026-08-21 | 4 | 19 | 15 | 16 | 9 | 84 |
+| last180d | 2026-05-23 | 4 | 32 | 18 | 31 | 13 | 165 |
+| 360d | 2025-11-24 | 13 | 53 | 19 | 63 | 16 | 321 |
+| last720d | 2024-11-29 | 19 | 88 | 19 | 104 | 24 | 603 |
 
 ## Release 资产
 
@@ -114,7 +114,7 @@ x install ccache
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/ccache) 上共有 **183** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**123** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/ccache) 上共有 **182** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**122** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -124,7 +124,7 @@ x install ccache
 | Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
 | Arch | `4.14.1` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `4.14.3` | ✅ latest |
 | Fedora rawhide | `4.14.3` | ✅ latest |
 | Nix unstable | `4.14.3` | ✅ latest |
 | Void | `4.14.1` | ⚠️ outdated |
@@ -140,4 +140,4 @@ ccache 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T08:43:44Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:37:23Z._

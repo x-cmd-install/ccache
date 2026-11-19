@@ -26,11 +26,11 @@ Total: **97,023** lines of code across **200** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.6 / 10**
+Overall score: **6.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/22 approved changesets -- score normalized to 2
+- **Code-Review** (3/10) — Found 8/22 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,002 · **Forks**: 608 · **Open issues**: 697 · **Contributors**: 210
+- **Stars**: 3,004 · **Forks**: 610 · **Open issues**: 700 · **Contributors**: 210
 
 ## Totals (cumulative)
 
-- **Releases**: 107 · **Merged PRs**: 519 · **Open PRs**: 17 · **Closed issues**: 644 · **Open issues**: 53 · **Commits**: 5424
+- **Releases**: 107 · **Merged PRs**: 519 · **Open PRs**: 20 · **Closed issues**: 644 · **Open issues**: 56 · **Commits**: 5424
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 8 | 4 | 4 | 3 | 30 |
-| last60d | 2026-09-18 | 3 | 15 | 8 | 8 | 4 | 65 |
-| 90d | 2026-08-19 | 4 | 19 | 11 | 17 | 6 | 84 |
-| last180d | 2026-05-21 | 4 | 32 | 14 | 32 | 10 | 165 |
-| 360d | 2025-11-22 | 13 | 53 | 16 | 63 | 13 | 321 |
-| last720d | 2024-11-27 | 19 | 88 | 16 | 104 | 21 | 603 |
+| 30d | 2026-10-20 | 1 | 8 | 8 | 3 | 6 | 30 |
+| last60d | 2026-09-20 | 3 | 15 | 12 | 8 | 7 | 65 |
+| 90d | 2026-08-21 | 4 | 19 | 15 | 16 | 9 | 84 |
+| last180d | 2026-05-23 | 4 | 32 | 18 | 31 | 13 | 165 |
+| 360d | 2025-11-24 | 13 | 53 | 19 | 63 | 16 | 321 |
+| last720d | 2024-11-29 | 19 | 88 | 19 | 104 | 24 | 603 |
 
 ## Release assets
 
@@ -114,7 +114,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **183** distros on [repology.org](https://repology.org/project/ccache). **40** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
+Reported by **182** distros on [repology.org](https://repology.org/project/ccache). **40** are ✅ on the latest upstream release, **122** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -124,7 +124,7 @@ Reported by **183** distros on [repology.org](https://repology.org/project/ccach
 | Ubuntu 26.04 LTS | `4.12.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.9.1` | ⚠️ outdated |
 | Arch | `4.14.1` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `4.14.3` | ✅ latest |
 | Fedora rawhide | `4.14.3` | ✅ latest |
 | Nix unstable | `4.14.3` | ✅ latest |
 | Void | `4.14.1` | ⚠️ outdated |
@@ -140,4 +140,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:43:42Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:37:23Z._
