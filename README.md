@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 10 | 6 | 4 | 6 | 37 |
-| last60d | 2026-09-27 | 3 | 21 | 9 | 8 | 7 | 73 |
-| 90d | 2026-08-28 | 3 | 23 | 13 | 14 | 9 | 94 |
-| last180d | 2026-05-30 | 4 | 38 | 16 | 32 | 13 | 177 |
-| 360d | 2025-12-01 | 12 | 59 | 17 | 64 | 16 | 333 |
-| last720d | 2024-12-06 | 19 | 93 | 17 | 105 | 24 | 617 |
+| 30d | 2026-10-28 | 1 | 9 | 6 | 3 | 6 | 37 |
+| last60d | 2026-09-28 | 2 | 18 | 9 | 8 | 7 | 73 |
+| 90d | 2026-08-29 | 3 | 23 | 13 | 14 | 9 | 94 |
+| last180d | 2026-05-31 | 4 | 38 | 16 | 32 | 13 | 177 |
+| 360d | 2025-12-02 | 12 | 59 | 17 | 64 | 16 | 333 |
+| last720d | 2024-12-07 | 19 | 93 | 17 | 105 | 24 | 617 |
 
 ## Release assets
 
@@ -121,4 +121,4 @@ Install metadata for ccache lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:32:32Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T09:36:46Z._
